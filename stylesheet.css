@@ -1,0 +1,73 @@
+.container{
+    width:90%;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+}
+
+h2 {
+    /* display: inline; */
+    position: relative;
+    top: 50%;
+
+    /* transform: translate((-50%,-50%)); */
+    
+}
+nav{
+    position: absolute;
+    /* float: right; */
+    left:75%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.contentleft{
+    display: inline-block;
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+}
+.chirpus{
+    display: inline-block;
+}
+.circleHouse{
+    /* border-width: 10px; */
+    border-style: solid;
+    border-width: 5px;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+
+}
+.beigeone {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color:rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.purpleone {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color:rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.pinkone{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color:rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;  
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
